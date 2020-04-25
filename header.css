@@ -1,0 +1,401 @@
+/* Button */
+
+.btn-primary,
+.btn-dark {
+    border: 0;
+    border-radius: 3px;
+    padding: 12px 20px 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-transition: 350ms;
+    -moz-transition: 350ms;
+    -o-transition: 350ms;
+    transition: 350ms;
+}
+
+.btn-white.btn-primary {
+    background: #fff;
+    color: #ffb600;
+}
+
+.btn-primary {
+    background: #EB304E
+}
+
+.btn-dark {
+    background: #23282d;
+}
+
+.btn-primary:hover,
+.btn-dark:hover,
+.btn-white.btn-primary:hover {
+    background:  #fff;
+    color:#EB304E;
+}
+
+.general-btn {
+    clear: both;
+    margin-top: 50px;
+}
+
+
+
+
+/* Top social */
+
+.top-social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.top-social li {
+    display: inline-block;
+    padding: 0;
+}
+
+.top-social li a {
+    color: #1F485D;
+    margin-right: 15px;
+    font-size: 14px;
+    -webkit-transition: 400ms;
+    -moz-transition: 400ms;
+    -o-transition: 400ms;
+    transition: 400ms;
+}
+
+.top-social li a:hover {
+    color: red;
+}
+
+
+
+
+/* Header area
+================================================== */
+
+#header {
+    background-color:#fff !important;
+    position: relative;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    width: 100%; 
+}
+
+.navbar-fixed {
+    z-index: 99999;
+    position: fixed;
+    opacity: .98;
+    width: 100%;
+    top: 0;
+    -webkit-animation: fadeInDown 800ms;
+    -moz-animation: fadeInDown 800ms;
+    -ms-animation: fadeInDown 800ms;
+    -o-animation: fadeInDown 800ms;
+    animation: fadeInDown 800ms;
+    -webkit-backface-visibility: hidden;
+}
+
+
+/*-- Logo --*/
+
+
+/* header right */
+
+.header-right {
+    float: left;
+    background-color: #fff !important;
+}
+
+ul.top-info-box {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: center; 
+}
+
+ul.top-info-box li {
+    position: relative;
+    float: left;
+    margin-left: 0;
+    /* border-right: 1px solid #dedede; */
+    /* border-right: 1px solid rgba(0, 0, 0, 0.1); */
+    /* padding-right: 25px; */
+    margin-right: 25px;
+}
+
+
+ul.top-info-box li:last-child {
+    margin-right: 0px;
+    padding-right: 0px;
+    position: relative;
+    float: center;
+    border-right:0;
+    border-left:0;
+}
+
+
+
+ul.top-info-box li .info-box span.info-icon {
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    float: left;
+    margin: 2px 5px 0 0;
+    position: relative;
+}
+
+ul.top-info-box li .info-box .info-box-content {
+    display: inline-block;
+    font-family: Montserrat;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+ul.top-info-box li .info-box .info-box-title {
+    font-size: 14px;
+    margin-bottom: 8px;
+    line-height: normal;
+    color:#1F485D;
+}
+
+ul.top-info-box li .info-box .info-box-subtitle {
+    margin: 0;
+    line-height: normal;
+    font-size: 15px;
+    font-weight: 700;
+    color:#1F485D;
+}
+
+
+
+
+
+/* Main navigation */
+
+.navbar-toggle {
+    float: left;
+    margin-top: 10px;
+    padding: 12px;
+}
+
+.navbar {
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 0;
+}
+
+.navbar-toggle {
+   float: left;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 0;
+    margin-right: 5px;
+    background: #EB304E;
+}
+
+.navbar-toggle .icon-bar {
+    background: #fff;
+}
+
+.navbar-toggle .i-bar {
+    background: #fff;
+}
+
+ul.navbar-nav {
+    float: left;
+    display: inline-block;
+}
+
+ul.navbar-nav>li {
+    float: none;
+    display: inline-block;
+}
+
+ul.navbar-nav>li:hover>a,
+ul.navbar-nav>li.active>a {
+    color: #ffb600;
+    position: relative;
+}
+
+ul.navbar-nav>li:hover>a:after,
+ul.navbar-nav>li.active>a:after {
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid #ffb600;
+}
+
+ul.navbar-nav>li {
+    padding: 0 13px;
+    position: relative;
+}
+
+ul.navbar-nav>li:last-child {
+    padding-right: 0;
+}
+
+ul.navbar-nav>li:last-child:after {
+    background: none;
+}
+
+ul.navbar-nav>li>a {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    text-rendering: optimizeLegibility;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -.2px;
+    font-size: 14px;
+    margin: 0;
+    line-height: 40px;
+    padding: 30px 0;
+    -webkit-transition: 350ms;
+    -moz-transition: 350ms;
+    -o-transition: 350ms;
+    transition: 350ms;
+}
+
+ul.navbar-nav>li>a:hover,
+ul.navbar-nav>li>a:focus {
+    background: none;
+}
+
+ul.navbar-nav>li>a i {
+    font-weight: 700;
+}
+
+.nav .open>a,
+.nav .open>a:hover,
+.nav .open>a:focus {
+    background: transparent;
+    border: 0;
+}
+
+
+
+/*-- Nav Search start --*/
+
+.site-navigation .container,
+.search-area{
+    position: relative;
+}
+
+.search-area{
+    min-height: 70px;
+    padding-right: 0;
+}
+
+.nav-search{
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 10px;
+    color: #999;
+}
+
+
+.search-block {
+    background-color: rgba(0,0,0,.65);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: none;
+    padding: 10px;
+    position: absolute;
+    right: 15px;
+    top: 100%;
+    width: 300px;
+    z-index: 10;
+    margin-top: 0;
+}
+
+.search-block .form-control {
+    background-color:red;
+    border: none;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    padding: 0 12px;
+}
+
+.search-block .search-close {
+    color: #999;
+    position: absolute;
+    top: -53px;
+    right: -10px;
+    font-size: 32px;
+    cursor: pointer;
+    background:red;
+    padding: 5px;
+}
+
+.search-area .nav-search{
+    top: 23px;
+}
+
+.search-area .search-block .search-close{
+    top: -50px;
+}
+
+.search-area .search-block {
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header variation
+================================================== */
+
+/*-- Header One --*/
+
+.header-one .site-navigation{
+    background: #1F485D;
+}
+
+.header-one .navbar-collapse{
+    padding-left: 0;
+}
+
+.header-one ul.navbar-nav>li>a{
+    padding: 15px 0;
+    color: #fff;
+}
+
+.header-one ul.navbar-nav>li:hover>a, .header-one ul.navbar-nav>li.active>a{
+    color: #EB304E
+}
+
+.header-one ul.navbar-nav>li{
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.header-one .logo-area{
+    padding: 30px 0;
+    background-color: #fff !important;
+    width: 100%;
+}
+
+/* Header two */
+
+/* .header-two{
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.15);
+}
+
+.header-two .logo{
+    padding: 28px 0;
+} */

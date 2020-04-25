@@ -1,0 +1,41 @@
+/*-- Copyright --*/
+
+.copyright {
+    background: #1F485D;
+    
+    color: #fff;
+    padding: 25px 0;
+    position: relative;
+    z-index: 1;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.footer-menu {
+    float: right;
+}
+
+.footer-menu ul li {
+    display: inline-block;
+    line-height: 12px;
+    padding-left: 15px;
+}
+
+.footer-menu ul.nav li a {
+    background: none;
+    color: #fff;
+    padding: 0;
+}
+
+.footer-menu ul li a:hover {
+    color: #EB304E;
+}
+
+.copyright-info a {
+    color: #EB304E;
+    text-decoration: none;
+}
+.copyright-info a:hover {
+    color: #fff;
+    
+}

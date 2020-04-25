@@ -1,0 +1,73 @@
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #828282;
+  background: #fff;
+}
+
+#page {
+  position: relative;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+h1, h2, h3, h4, h5, h6, figure {
+  color: crimson;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+
+
+#qbootstrap-doctor {
+  padding:50px;
+  clear: both;
+}
+@media screen and (max-width: 768px) {
+  #qbootstrap-doctor {
+    padding: 3em 0;
+  }
+}
+
+.doctor {
+  width: 100%;
+  float: left;
+  display: block;
+  margin-bottom: 40px;
+}
+.doctor img {
+  margin-bottom: 40px;
+}
+.doctor .staff-img {
+  width: 230px;
+  height: 230px;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 20px;
+  display: table;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+.doctor h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+
+.js .animate-box {
+  opacity: 0;
+}
+
+
+/*# sourceMappingURL=style.css.map */

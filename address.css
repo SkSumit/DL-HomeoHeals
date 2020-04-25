@@ -1,0 +1,100 @@
+
+
+.contact a {
+  color: #EB304E;
+}
+
+.contact a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact  {
+  width: 100%;
+  background: #1F485D;
+  padding: 60px;
+}
+
+.contact .section-header h2::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: white;
+  bottom: 0;
+  left: 0;
+}
+
+.contact  i {
+  font-size: 20px;
+  color: white;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact  h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: crimson;
+}
+
+.contact  p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: ghostwhite;
+}
+
+.contact  .time, .contact  .phone, .contact  .address {
+  margin-top:2vh;
+}
+
+.contact  .time:hover i, .contact .address:hover i, .contact  .phone:hover i {
+  background: crimson;
+  color: #fff;
+}
+
+.contact .container .col-sm-6 {
+  padding: 2vh;
+}
+
+/* @-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */
+
+
+
+
+
+
