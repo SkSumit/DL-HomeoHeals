@@ -26,9 +26,9 @@ jQuery(function ($) {
 
 	$(window).on('scroll', function () {
 		if ($(window).scrollTop() > 70) {
-			$('.navdown, .header-two').addClass('navbar-fixed');
+			$('.navdown, .header-one').addClass('navbar-fixed');
 		} else {
-			$('.navdown, .header-two').removeClass('navbar-fixed');
+			$('.navdown, .header-one').removeClass('navbar-fixed');
 		}
 	});
 

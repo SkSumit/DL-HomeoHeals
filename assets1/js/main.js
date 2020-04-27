@@ -17,15 +17,15 @@
         var scrollto = target.offset().top;
         var scrolled = 20;
 
-        if ($('#header').length) {
-          scrollto -= $('#header').outerHeight()
+        if ($('#mainheader').length) {
+          scrollto -= $('#mainheader').outerHeight()
 
-          if (!$('#header').hasClass('header-scrolled')) {
+          if (!$('#mainheader').hasClass('header-scrolled')) {
             scrollto += scrolled;
           }
         }
 
-        if ($(this).attr("href") == '#header') {
+        if ($(this).attr("href") == '#mainheader') {
           scrollto = 0;
         }
 
@@ -86,7 +86,7 @@
   // Navigation active state on scroll
   var nav_sections = $('section');
   var main_nav = $('.nav-menu, #mobile-nav');
-  var main_nav_height = $('#header').outerHeight();
+  var main_nav_height = $('#mainheader').outerHeight();
 
   $(window).on('scroll', function() {
     var cur_pos = $(this).scrollTop() + 10;
@@ -105,7 +105,7 @@
   });
 
   // Stick the header at top on scroll
-  $("#header").sticky({
+  $("nav").sticky({
     topSpacing: 0,
     zIndex: '50'
   });

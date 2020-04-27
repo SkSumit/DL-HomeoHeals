@@ -41,7 +41,7 @@
   .back-to-top {
     position: fixed;
     display: none;
-    background: #50d8af;
+    background: #1F485D;
     color: #fff;
     padding: 6px 12px 9px 12px;
     font-size: 16px;
@@ -58,13 +58,13 @@
   }
   
   .back-to-top:focus {
-    background: #50d8af;
+    background:  #EB304E;
     color: #fff;
     outline: none;
   }
   
   .back-to-top:hover {
-    background: #0c2e8a;
+    background:  #EB304E;
     color: #fff;
   }
   

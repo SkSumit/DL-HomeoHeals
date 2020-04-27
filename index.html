@@ -10,10 +10,16 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
     />
 
-  <title>Reveal Bootstrap Template</title>
+  <title> HomeoHeals</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
+  <link
+  rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+  crossorigin="anonymous"
+/>
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -53,36 +59,66 @@
  
   <header id="header" class="header-one">
     <div class="container">
-      <div class="row">
+      <div class="row" id="mainheader">
         <div class="logo-area clearfix">
-          <div
-            class="col-xs-12 col-md-4 text-md-left text-center my-auto header-right"
-          >
-            <ul class="top-info-box">
-              <li>
-                <div class="info-box">
-                  <div class="info-box-content">
-                    <p class="info-box-title">Call Us</p>
-                    <p class="info-box-subtitle">(+91) 8446224700</p>
+
+          <div class="col-xs-12 col-md-4 text-md-left text-center my-auto">
+            <div class="row justify-content-center">
+              <div class="col-sm-6 text-md-left text-center">
+                <div class="row justify-content-start">
+                  <div class="col-sm-12 text-md-left text-center">
+                    <h3>Mail Us</h3>
                   </div>
                 </div>
-              </li>
-              <li>
-                <div class="info-box text-sm-center">
-                  <div class="info-box-content">
-                    <p class="info-box-title">Email Us</p>
-                    <p class="info-box-subtitle">drprachi@gmail.com</p>
+                <div class="row justify-content-start">
+                  <div class="col-sm-2 text-md-left text-center">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div class="col-sm-10 text-md-left text-center">
+                    <p>book@homeoheals.com</p>
                   </div>
                 </div>
-              </li>
-            </ul>
-            <!-- Ul end -->
+              </div>
+              <div class="col-sm-6 text-md-left text-center">
+                <div class="row justify-content-start">
+                  <div class="col-sm-12 text-md-left text-center">
+                    <h3>Call Us</h3>
+                  </div>
+                </div>
+                <div class="row justify-content-start">
+                  <div class="col-sm-2 text-md-left text-center">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <div class="col-sm-10 float-sm-left">
+                    <p>+91 7709594561</p>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
           </div>
           <!-- header right end -->
           <div class="logo col-xs-12 col-md-5">
-            <a href="index.html">
-              <img src="images/logo.png" alt="" />
-            </a>
+            <div class="col-sm-6 text-md-center text-center my-auto" >
+              <div class="row justify-content-center">
+  
+              
+              <div class="col-sm-4 text-md-right text-center">
+                <div class="row d-flex  justify-content-lg-end justify-content-center">
+                  <img
+                    src="https://image.freepik.com/free-vector/circle-tree-green-logo_97853-60.jpg"
+                    style="height: 8vh;"
+                    alt="Responsive image"
+                  />
+                </div>
+              </div>
+              <div class="col-sm-8 text-md-left text-center" >
+                <div class="row justify-content-lg-start justify-content-center h-100">
+                  <h1 class="my-auto" style="padding-left: 2vh;">HomeoHeals</h1>
+                </div>
+              </div>
+            </div>
+            </div>
           </div>
           <!-- logo end -->
           <div class="logo col-xs-12 col-md-3">
@@ -90,28 +126,29 @@
               <li>
                 <a
                   title="Facebook"
-                  href="https://facebbok.com/themefisher.com"
+                  href="https://www.facebook.com/_shreeclinic_-100111211419834/"
                 >
                   <span class="social-icon"
-                    ><i class="fa fa-facebook"></i
+                    ><i class="fab fa-facebook"></i
                   ></span>
                 </a>
-                <a title="Twitter" href="https://twitter.com/themefisher.com">
-                  <span class="social-icon"
-                    ><i class="fa fa-twitter"></i
-                  ></span>
-                </a>
+                
                 <a
                   title="Instagram"
-                  href="https://instagram.com/themefisher.com"
+                  href="https://www.instagram.com/_shreeclinic_/"
                 >
                   <span class="social-icon"
-                    ><i class="fa fa-instagram"></i
+                    ><i class="fab fa-instagram"></i
                   ></span>
                 </a>
-                <a title="Linkdin" href="https://github.com/themefisher.com">
+                <a title="youtube" href="#">
                   <span class="social-icon"
-                    ><i class="fa fa-github"></i
+                    ><i class="fab fa-youtube"></i
+                  ></span>
+                </a>
+                <a title="blog" href="https://drprachikhandagale.blogspot.com">
+                  <span class="social-icon"
+                    ><i class="fab fa-blogger"></i
                   ></span>
                 </a>
               </li>
@@ -146,48 +183,44 @@
                 class="collapse navbar-collapse navbar-responsive-collapse"
               >
                 <ul class="nav navbar-nav">
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                      >Home
-                    </a>
+                  <li >
+                    <a href="#home"  class="nav-item" 
+                      >Home </a>
                   </li>
 
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                      >Company <i class="fa fa-angle-down"></i
-                    ></a>
+                  <li >
+                    <a href="#about"  class="nav-item" 
+                      >About </a>
+                  </li>
+                  <li >
+                    <a href="#speciality"  class="nav-item" 
+                      >Speciality </a>
+                  </li>
+                  <li >
+                    <a href="#treatments"  class="nav-item" 
+                      >Treatments </a>
+                  </li>
+                  <li >
+                    <a href="#testimonials"  class="nav-item" 
+                      >Testimonials </a>
+                  </li>
+                  <li >
+                    <a href="#faqs"  class="nav-item" 
+                      >FAQs </a>
+                  </li>
+                  <li >
+                    <a href="#contact"  class="nav-item" 
+                      >Contact Us</a>
+                  </li>
+                  <li >
+                    <a href="#about"  class="nav-item" 
+                      >Blog </a>
                   </li>
 
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                      >Projects <i class="fa fa-angle-down"></i
-                    ></a>
-                  </li>
+               
 
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                      >Services <i class="fa fa-angle-down"></i
-                    ></a>
-                  </li>
 
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                      >News <i class="fa fa-angle-down"></i
-                    ></a>
-                    <ul class="dropdown-menu" role="menu">
-                      <li>
-                        <a href="news-left-sidebar.html">News Left Sidebar</a>
-                      </li>
-                      <li>
-                        <a href="news-right-sidebar.html"
-                          >News Right Sidebar</a
-                        >
-                      </li>
-                      <li><a href="news-single.html">News Single</a></li>
-                    </ul>
-                  </li>
-
-                  <li><a href="contact.html">Contact</a></li>
+                 
                 </ul>
                 <!--/ Nav ul end -->
               </div>
@@ -224,7 +257,7 @@
   
     <!-- ======= Services Section ======= -->
     <section id="services">
-      <div class="container">
+      <div class="container" id="about">
         <div class="section-header">
           <h2>About Homeopathy</h2>
           
@@ -234,43 +267,47 @@
 
           <div class="col-lg-12">
             <div class="box wow fadeInLeft">
-              <div class="icon"><i class="fa fa-bar-chart"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.</p>
+              <div class="icon"><i class="fas fa-mortar-pestle"></i></div>
+              <h4 class="title"><a href="">WHAT IS HOMOEOPATHY ?
+              </a></h4>
+              <p class="description">HOMOEOPATHY is a 223 year old system of medicine which was discovered by Dr. Christian Fredrich Samuel Hahnemann, in 1796 in Germany, which has now flourished as a mainstream medicine in our era. He invented this system on the doctrine of LIKE CURES LIKE (or कट्याने काटा काढणे or लोहा लोहे को मारता है). 
+                When Dr. Hahnemann started the practice of homoeopathy, it was not even considered medicine and he was laughed at and criticized about the same. But he was adamant and determined to introduce the world with the best from of medicine which had no side effects, which was natural and which was permanent. Slowly he and his disciples spread about the system and it was worldwide.
+                </p>
             </div>
           </div>
 
           <div class="col-lg-12">
             <div class="box wow fadeInRight">
-              <div class="icon"><i class="fa fa-picture-o"></i></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
+              <div class="icon"><i class="fas fa-cogs"></i></div>
+              <h4 class="title"><a href="">How does it work ?</a></h4>
+              <p class="description">If you have a certain disease or symptoms, there should be a medicine with similar symptoms or signs or disease but with a greater dynamic power than the disease itself. i.e. when you administer the homoeopathic dose to a patient, the symptoms weaker than the medicine disappear and go outside the human body.
+                The homeopathic medicine enters your body and removes the disease from it root and we believe that if the root cause is removed, there will be no disease left in our systems. Thus homoeopathy is famous for removing the disease or ailment in its whole extent. 
+                </p>
             </div>
           </div>
 
           <div class="col-lg-12">
             <div class="box wow fadeInLeft" data-wow-delay="0.2s">
-              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur trinige zareta lobur trade.</p>
+              <div class="icon"><i class="fas fa-brain"></i></div>
+              <h4 class="title"><a href="">Main Principle 
+              </a></h4>
+              <p class="description">
+                SIMLIA SIMILIBUS CURENTER being the basic principle, homoeopathy acts at its best when this principle is applied, there is relief from symptoms, recovery and then cure 
+                While progress take place in a patient, there is something called as “finding the root cause”, which is responsible for the disorder the patient is suffering from. It can  be suppressed emotions in childhood or an incident which left a sudden impact on the patient, marriage against wish, lack of education when wanted to study, etc, they are so many to name! 
+                Thus for finding the root, we do “homoeopathic case-taking” which is the whole and sole of a homeopathic case, which guides him through the case and helps him find the exact medicine of the patients depending upon his physical, mental, and emotional levels.
+                </p>
             </div>
           </div>
 
-          <div class="col-lg-12">
-            <div class="box wow fadeInRight" data-wow-delay="0.2s">
-              <div class="icon"><i class="fa fa-map"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p>
-            </div>
-          </div>
+       
 
         </div>
 
       </div>
     </section><!-- End Services Section -->
 
-    <section id="services"> 
-      <div class="container">
+    <section id="speciality"> 
+      <div class="container" >
         <div class="section-header">
           <h2>Our Speciality</h2>
           
@@ -286,28 +323,39 @@
 			</div>
 
 			<div class="row">
-				<div class="col-md-3 animate-box text-center">
+				<div class="col-md-6 animate-box text-center">
 					<div class="doctor">
-						<div class="staff-img" style="background-image: url(medcareass/images/staff-4.jpg);"></div>
-						<h3 style="font-weight: bold">Diet1</h3>
+						<div class="staff-img" style="background-image: url(medcareass/images/diet.jpg);"></div>
+            <h3 style="font-weight: bold">Diet</h3>
+            <p style="text-align: left;"> It is an observed fact that when Homoeopathic medicine is religiously followed by proper diet and regimen, it gives amazing results. 
+              Hear at Homoeo Heal, we give proper guided but simple and easy to follow Diet plans for people suffering from lifestyle disorders such as Diabetes, High BP, Thyroid, Hormonal imbalance, etc.
+              This Diet is not ones that will starve you, or will put you on supplements. NO!!
+              It will be totally according to your taste, body demands, and your everyday food and importantly related to your problem.
+              </p>
 					</div>
 				</div>
-				<div class="col-md-3 animate-box text-center">
+				<div class="col-md-6 animate-box text-center">
 					<div class="doctor">
-						<div class="staff-img" style="background-image: url(medcareass/images/staff-2.jpg);"></div>
-						<h3 style="font-weight: bold">Exercise1</h3>
+						<div class="staff-img" style="background-image: url(medcareass/images/lecture.jpg);"></div>
+            <h3 style="font-weight: bold">FREQUENT LECTURES / SEMINARS / MEETUPS
+            </h3>
+            <p style="text-align: left;"> Being a doctor myself, I feel it is my moral responsibility to share the knowledge I have to people in our society. I conduct various seminars, lectures for discussing various topics for women illnesses, geriatric age group disorders, boosting immunity in children, hygiene, diet and lifestyle counselling and many such topics. </p>
 					</div>
 				</div>
-				<div class="col-md-3 animate-box text-center">
+				<div class="col-md-6 animate-box text-center">
 					<div class="doctor">
-						<div class="staff-img" style="background-image: url(medcareass/images/staff-3.jpg);"></div>
-						<h3 style="font-weight: bold">Lifestyle1</h3>
+						<div class="staff-img" style="background-image: url(medcareass/images/life.jpg);"></div>
+            <h3 style="font-weight: bold">Lifestyle</h3>
+            <p style="text-align: left;">Many disorders are a result of our unhealthy lifestyle which is an outcome of improper diet, lack of exercise, constant stress, over-use of gadgets, over-thinking, sedentary habits, improper sleep patterns, excess alcohol / cigarettes, etc. In today’s techno savvy world, it is difficult to get rid of these habits. These habits usually come out of unknowingness. We help to overcome these improper lifestyle habits by introducing some mind exercises, journaling, talking it out to someone etc.
+              Many of these lifestyle disorders, are half way done if we improve our lifestyle and habits along with help of medicines.
+              </p>
 					</div>
 				</div>
-				<div class="col-md-3 animate-box text-center">
+				<div class="col-md-6 animate-box text-center">
 					<div class="doctor">
-						<div class="staff-img" style="background-image: url(medcareass/images/staff-1.jpg);"></div>
-						<h3 style="font-weight: bold">Bach-Flower1</h3>
+						<div class="staff-img" style="background-image: url(medcareass/images/bf.jpeg);"></div>
+            <h3 style="font-weight: bold">Bach-Flower</h3>
+            <p style="text-align: left;"> Dr, Edward Bach invented this doctrine, which comprises of 39 flower remedies. According to him, these flower remedies help a man to overcome his weaknesses especially of the mind. Thus Bach Flower remedies if taken with Homoeopathic medicines, they Accenture the progress as these remedies help to get rid of hidden anxiety, fear, some disturbing dreams, and thus restoring Mental Peace. Hear at Homoeo Heal, we prescribe Bach flower medicines where necessary, where there are some insecurities, suppressed emotions or fears and anxiety. </p>
 					</div>
 				</div>
 			</div>
@@ -331,7 +379,7 @@
     
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
-      <div class="container">
+      <div class="container" id="testimonials">
         <div class="section-header">
           <h2>Testimonials</h2>
           
@@ -341,33 +389,38 @@
 
           <div class="testimonial-item">
             <img src="assets1/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-            <h3>Saul Goodman</h3>
-            <h4>Ceo &amp; Founder</h4>
-            <p>
+            <h3>ACHYUT JOSHI</h3>
+            <!-- <h4>Ceo &amp; Founder</h4> -->
+            <p style="text-align: left;">
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+              I had come to Dr. Prachi mainly for cold and cough. I was suffering from cold, sneezing, choking of nose quite frequenly. I was also not able to my routine activities without help; even walking in the house owing to drowsiness and due to this many times I had to sit down. I always had to use Otrivin, to clear my nose block. Dr. Prachi made me comfortable while taking my long case history and gave me her homoeopathic medicines. All of these illnesses are quite under control and I did not need otrivin nasal drops for last couple of months now. Another illness was drowsiness which is almost cured.Now I can breathe very easily, there is seldom sneezing and don't need any nasal drops to clear nose.Now I can freely move anywhere without anybody's help.
+              
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
           </div>
 
           <div class="testimonial-item">
             <img src="assets1/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-            <h3>Sara Wilsson</h3>
-            <h4>Designer</h4>
-            <p>
+            <h3>SACHIN KULKARNI
+            </h3>
+            <!-- <h4>Designer</h4> -->
+            <p style="text-align: left;">
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+              I had an acute pain in my knee which made it difficult for me in driving and playing badminton.I tried many Allopathy medicines prescribed by the Doctors but was not satisfying. Then I went to Dr Prachi. She investigated the problem and her diagnosis resulted in getting the exact reason for this pain. She prescribed me Homeopathic medicines which had to be taken daily for a month. I noticed the difference that the pain had reduced thereby I could start driving again and playing badminton regularly.
+Thanks a lot Dr. Prachi for this and wish you All the best.
+
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
           </div>
 
           <div class="testimonial-item">
             <img src="assets1/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-            <h3>Jena Karlis</h3>
-            <h4>Store Owner</h4>
-            <p>
+            <h3>MANISHA DHAYGUDE
+            </h3>
+           
+            <p style="text-align: left;">
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+              "Fantastic Doctor! She is very smart and really cares about the patient. She has excellent communication skills  which helps patient to open up. My 5 year old kid was suffering through cold. Dr. Prachi medicines gave him relief in 2 days. Highest recommendation!!
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
           </div>
@@ -376,7 +429,7 @@
             <img src="assets1/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
             <h3>Matt Brandon</h3>
             <h4>Freelancer</h4>
-            <p>
+            <p style="text-align: left;">
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
               Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
@@ -387,7 +440,7 @@
             <img src="assets1/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
             <h3>John Larson</h3>
             <h4>Entrepreneur</h4>
-            <p>
+            <p style="text-align: left;">
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
               Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
@@ -400,7 +453,7 @@
     </section><!-- End Testimonials Section -->
 
     <!-- ======= F.A.Q Section ======= -->
-    <section id="faq" class="faq">
+    <section id="faqs" class="faq">
       <div class="container">
         <div class="section-header">
           <h2 style="color: white;">F A Q s</h2>
@@ -472,7 +525,7 @@
             <div class="row justify-content-left">
               <div>
                 <iframe
-                  style="border: 0; width: 75%; height: 250px;"
+                  style="border: 0; width: 100%; height: 250px;"
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
                   frameborder="0"
                   allowfullscreen
@@ -510,7 +563,7 @@
             <div class="row justify-content-left">
               <div>
                 <iframe
-                  style="border: 0; width: 75%; height: 250px;"
+                  style="border: 0; width: 100%; height: 250px;"
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
                   frameborder="0"
                   allowfullscreen
@@ -627,6 +680,7 @@
   <!-- Template Main JS File -->
  
   <script src="assets1/js/main.js"></script>
+  <script src="header.js"></script>
 
 </body>
 

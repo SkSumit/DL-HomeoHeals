@@ -71,8 +71,27 @@
     color: red;
 }
 
+#mainheader h3 {
+    
+    
+    font-weight: 700;
+    color: #EB304E !important;
+    font-size: 22px;
+  }
 
+  #mainheader h1 {
+    
+    
+    font-weight: 700;
+    color: #EB304E !important;
+    font-size: 36px;
+  }
 
+  #mainheader p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #1F485D !important;
+  }
 
 /* Header area
 ================================================== */
@@ -84,6 +103,8 @@
     z-index: 10;
     width: 100%; 
 }
+
+
 
 .navbar-fixed {
     z-index: 99999;
@@ -106,15 +127,16 @@
 /* header right */
 
 .header-right {
-    float: left;
+    float: center !important;
     background-color: #fff !important;
 }
 
 ul.top-info-box {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding-left: 0vh;
     float: center; 
+   
 }
 
 ul.top-info-box li {
@@ -275,6 +297,9 @@ ul.navbar-nav>li>a i {
     border: 0;
 }
 
+.fas{
+    color: #1F485D;
+}
 
 
 /*-- Nav Search start --*/
@@ -348,6 +373,14 @@ ul.navbar-nav>li>a i {
 
 
 
+.nav-up {
+   display: none !important;
+}
+
+/* .nav-down {
+    display: block !important;
+ } */
+ 
 
 
 
@@ -399,3 +432,6 @@ ul.navbar-nav>li>a i {
 .header-two .logo{
     padding: 28px 0;
 } */
+
+
+

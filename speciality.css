@@ -1,11 +1,11 @@
-body {
+/* body {
   font-family: "Poppins", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
   color: #828282;
   background: #fff;
-}
+} */
 
 #page {
   position: relative;
@@ -25,6 +25,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
+
 #qbootstrap-doctor {
   padding:50px;
   clear: both;
@@ -40,6 +41,7 @@ h1, h2, h3, h4, h5, h6, figure {
   float: left;
   display: block;
   margin-bottom: 40px;
+ 
 }
 .doctor img {
   margin-bottom: 40px;
@@ -63,11 +65,17 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
   margin-bottom: 10px;
 }
+.doctor p {
+  /* font-size: 10px; */
+  margin-bottom: 10px;
+}
 
 
 .js .animate-box {
   opacity: 0;
 }
+
+
 
 
 /*# sourceMappingURL=style.css.map */
