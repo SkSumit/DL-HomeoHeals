@@ -1,0 +1,178 @@
+
+
+#page {
+  position: relative;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.offcanvas #page {
+  overflow: hidden;
+  position: absolute;
+}
+.offcanvas #page:after {
+  -webkit-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 101;
+  background: rgba(0, 0, 0, 0.7);
+  content: "";
+}
+
+
+
+
+::-webkit-selection {
+  color: #fff;
+  background: #34b8c0;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #34b8c0;
+}
+
+::selection {
+  color: #fff;
+  background: #34b8c0;
+}
+
+#qbootstrap-hero {
+  min-height: 650px;
+  background: #fff no-repeat center center;
+}
+#qbootstrap-hero .flexslider {
+  border: none;
+  z-index: 1;
+  margin-bottom: 0;
+}
+#qbootstrap-hero .flexslider .slides {
+  position: relative;
+  overflow: hidden;
+}
+#qbootstrap-hero .flexslider .slides li {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  min-height: 630px;
+  position: relative;
+}
+#qbootstrap-hero .flexslider .slides li:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+#qbootstrap-hero .flexslider .flex-control-nav {
+  bottom: 7em;
+  z-index: 1000;
+}
+#qbootstrap-hero .flexslider .flex-control-nav li a {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: none;
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+#qbootstrap-hero .flexslider .flex-control-nav li a.flex-active {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.7);
+}
+#qbootstrap-hero .flexslider .flex-direction-nav {
+  display: none;
+}
+#qbootstrap-hero .flexslider .slider-text {
+  display: table;
+  opacity: 0;
+  min-height: 650px;
+  z-index: 9;
+}
+#qbootstrap-hero .flexslider .slider-text > .slider-text-inner {
+  display: table-cell;
+  vertical-align: middle;
+  height: 700px;
+}
+#qbootstrap-hero .flexslider .slider-text > .slider-text-inner h1, #qbootstrap-hero .flexslider .slider-text > .slider-text-inner h2 {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+#qbootstrap-hero .flexslider .slider-text > .slider-text-inner h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+  line-height: 1.3;
+  font-weight: 300;
+}
+@media screen and (max-width: 768px) {
+  #qbootstrap-hero .flexslider .slider-text > .slider-text-inner h1 {
+    font-size: 30px;
+  }
+}
+#qbootstrap-hero .flexslider .slider-text > .slider-text-inner h2 {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  font-family: "Poppins", Arial, sans-serif;
+}
+#qbootstrap-hero .flexslider .slider-text > .slider-text-inner h2 a {
+  color: rgba(255, 255, 255, 0.5);
+}
+#qbootstrap-hero .flexslider .slider-text > .slider-text-inner .doc-holder {
+  font-size: 28px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+#qbootstrap-hero .flexslider .slider-text > .slider-text-inner .btn {
+  padding: 18px 30px !important;
+  color: #fff;
+  border: none !important;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#qbootstrap-hero .flexslider .slider-text > .slider-text-inner .btn:hover {
+  background: white;
+  color: white;
+  -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
+  -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
+  box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
+}
+#qbootstrap-hero .flexslider .slider-text > .slider-text-inner .qbootstrap-lead {
+  font-size: 20px;
+  color: #fff;
+}
+#qbootstrap-hero .flexslider .slider-text > .slider-text-inner .qbootstrap-lead .icon-heart {
+  color: #d9534f;
+}
+
+.btn-big {
+  display: block;
+  width: 100%;
+  float: left;
+}
+.btn-big a {
+  width: 100%;
+  float: left;
+  display: block;
+  font-size: 20px;
+  padding: 20px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+}
+

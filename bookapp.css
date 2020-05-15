@@ -1,0 +1,36 @@
+section#bookapp {
+    background-color: white !important;
+   
+}
+
+section#bookapp .container  {
+    background-color: white !important;
+   
+}
+
+
+.clb{
+    border: 0;
+    border-radius: 3px;
+    padding: 12px 20px 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-transition: 350ms;
+    -moz-transition: 350ms;
+    -o-transition: 350ms;
+    transition: 350ms;
+    /* background: #EB304E */
+    background-color: yellow !important;
+}
+
+
+
+
+
+#clb {
+    background:  #fff;
+    color:#EB304E;
+}
+
