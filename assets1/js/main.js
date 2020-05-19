@@ -1,9 +1,4 @@
-/**
-* Template Name: Remember - v2.0.0
-* Template URL: https://bootstrapmade.com/remember-free-multipurpose-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 !(function($) {
   "use strict";
 
@@ -142,10 +137,10 @@
 
   // Porfolio isotope and filter
   $(window).on('load', function() {
-    var portfolioIsotope = $('.portfolio-container').isotope({
-      itemSelector: '.portfolio-item',
-      layoutMode: 'fitRows'
-    });
+    // var portfolioIsotope = $('.portfolio-container').isotope({
+    //   itemSelector: '.portfolio-item',
+    //   layoutMode: 'fitRows'
+    // });
 
     $('#portfolio-flters li').on('click', function() {
       $("#portfolio-flters li").removeClass('filter-active');
@@ -179,9 +174,9 @@
   });
 
   // Initi AOS
-  AOS.init({
-    duration: 800,
-    easing: "ease-in-out-back"
-  });
+  // AOS.init({
+  //   duration: 800,
+  //   easing: "ease-in-out-back"
+  // });
 
 })(jQuery);
